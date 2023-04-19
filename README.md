@@ -9,3 +9,8 @@ The real fun is it will also clean out any email that has been sent to an addres
 
 Simply go to the [https://script.google.com/](https://script.google.com/) site and start a new project.  
 Copy/paste this code and hit run. You will have to authorize the script to read your emails (and delete things, scary so make sure you really read and understand the code!)
+
+## Credit
+
+Almost all credit goes to [https://medium.com/@fw3d/auto-archive-emails-in-gmail-after-2-days-1ebf0e076b1c](https://medium.com/@fw3d/auto-archive-emails-in-gmail-after-2-days-1ebf0e076b1c) as it inspired me to write this and opened
+my eyes to what Google App Script is!
