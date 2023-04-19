@@ -16,7 +16,7 @@ function wipeCrapEmails() {
     // Get each message within a thread
     const messages = thread.getMessages();
     messages.forEach((message) => {
-      if(message.getTo().match(/christopher\.weed\+(.*)@castingnetworks\.com/)) {
+      if(message.getTo().match(/.*\+(.*)@.*/)) {
         // This is a "+" message, no matter what add the Test User label:
         thread.addLabel(testUserLabel);
       }
